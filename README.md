@@ -1,3 +1,4 @@
+<img width="1101" height="195" alt="screen honeytoken" src="https://github.com/user-attachments/assets/0adcc37c-eab1-4930-963c-187c7304544d" />
 ## 🛡️ Contexte & Retour d'Expérience (REX)
 
 ### 📌 Version 1.0 (Architecture Initiale & Faille Identifiée)
@@ -15,3 +16,5 @@ Afin de transformer ce projet en une solution conforme aux bonnes pratiques de s
 2. **Gestion sécurisée des secrets** : Refonte du code Python pour extraire les secrets via `os.environ` (`DISCORD_WEBHOOK_URL` et `DISCORD_USER_ID`).
 3. **Injection via Terraform** : Configuration des variables Terraform chiffrées/masquées (`sensitive = true`) pour alimenter le bloc `environment` de la fonction Lambda de manière dynamique.
 4. **Audit de sécurité pré-publication** : Validation de l'absence totale de secrets résiduels dans le code et les commits à l'aide de l'outil **Gitleaks** (`leaks found: 0`).
+
+5.<img width="1101" height="195" alt="Alerte Discord Honey-Token " src="https://github.com/user-attachments/assets/0adcc37c-eab1-4930-963c-187c7304544d" />
